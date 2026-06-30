@@ -13,7 +13,7 @@ if "mode" not in st.session_state:
 if "uploaded_texts" not in st.session_state:
     st.session_state.uploaded_texts = {}  # {filename: extracted_text}
 
-st.title("🤖ZentrixAI – Intelligent Coding Assistant)")
+st.title("🤖ZentrixAI – AI-Multi-Role-Coding-Assistant)")
 
 # --- Sidebar Upload ---
 st.sidebar.header("📂 Project Files")
